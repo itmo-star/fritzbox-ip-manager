@@ -25,7 +25,7 @@ Ein leichtgewichtiges, symmetrisches macOS-Desktoptool zur **1-Klick-Erneuerung 
 
 ### 1. Repository klonen
 ```bash
-git clone https://github.com/DEIN-USERNAME/fritzbox-ip-manager.git
+git clone https://github.com/itmo-star/fritzbox-ip-manager.git
 cd fritzbox-ip-manager
 ```
 
