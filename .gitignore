@@ -1,0 +1,29 @@
+# ==========================================
+# Fritz!Box IP-Changer .gitignore
+# Verhindert, dass private Daten veröffentlicht werden
+# ==========================================
+
+# Private Konfiguration & Passwörter
+config.json
+
+# Lokale IP-Historie & Export-Dateien (Privatsphäre)
+ip_history.json
+*.csv
+
+# Python Cache & virtuelle Umgebungen
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# macOS Systemdateien
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Lokale macOS App-Bundles (wird lokal aus app.py gebaut)
+*.app
